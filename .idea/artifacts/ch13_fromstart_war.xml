@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ch13-fromstart:war">
+    <output-path>$PROJECT_DIR$/../ch13-fromstart/ch13-fromstart/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ch13-fromstart</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ch13-fromstart.war">
+      <element id="artifact" artifact-name="ch13-fromstart:war exploded" />
+    </root>
+  </artifact>
+</component>
